@@ -1,0 +1,17 @@
+
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+
+}
+
+
+for (let Kal = 0; Kal < 18; Kal++) {
+    if (Kal > 15) {
+        console.log("Win");
+    } else {
+        console.log("No win");
+    }
+
+
+}
