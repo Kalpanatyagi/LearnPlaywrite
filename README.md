@@ -1,12 +1,24 @@
-# Learn Playwrite (JavaScript Learning Notes)
+# Learn Playwrite
 
-A step-by-step collection of JavaScript learning exercises, organized by chapter. Each file focuses on a single concept with runnable examples.
+A personal JavaScript and Playwright learning repository containing step-by-step exercises, mini projects, and practice problems. The goal is to build a strong understanding of JavaScript fundamentals and then move into browser automation with Playwright.
+
+## What is included
+
+- JavaScript basics and syntax
+- Variables, scope, hoisting, functions, and objects
+- Arrays, loops, conditionals, and operators
+- Async/Await patterns
+- User input and real-world examples
+- Playwright automation basics
+- Practice assignments and small coding challenges
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14 or later recommended)
+- npm (comes with Node.js)
+- A browser for Playwright-based examples
 
-## Getting Started
+## Getting started
 
 1. Clone the repository:
 
@@ -15,51 +27,59 @@ A step-by-step collection of JavaScript learning exercises, organized by chapter
    cd LearnPlaywrite
    ```
 
-2. Run any exercise with Node:
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run a JavaScript example:
 
    ```bash
    node Chapter_01_Basics/01_Basics.js
    node Chapter_06_Operators/35_Confusing_Comparison.js
    ```
 
-## Chapter Overview
+4. Run Playwright examples when needed:
 
-| Chapter | Folder | Topics | Files |
-| --- | --- | --- | --- |
-| 01 | `Chapter_01_Basics` | JavaScript basics, setup verification | 01-03 |
-| 02 | `Chapter_02_Javascript_concepts` | Core JavaScript concepts | 05 |
-| 03 | `Chapter_03_Identifier_Literals` | Identifier rules | 06 |
-| 04 | `Chapter_04_Javascript_Concepts.js` | var/let/const, scope, hoisting, functions | 09-17 |
-| 05 | `Chapter_05_Literal` | Literals, null/undefined, numbers | 22, 23, 26 |
-| 06 | `Chapter_06_Operators` | Arithmetic, comparison, logical, ternary, null-coalescing | 30–44 |
+   ```bash
+   npx playwright --help
+   ```
 
-### Chapter 06 - Operators (examples)
+## Repository structure
 
-- `30_operators.js` - Operator overview
-- `31_Arithmetic.js` - Arithmetic operators
-- `32_Modulus.js` - Modulus operator
-- `33_Expo_OP.js` - Exponentiation operator
-- `34_Comparison_op.js` - Comparison operators
-- `35_Confusing_Comparison.js` - `==` vs `===` confusing cases
-- `39_Logical_operator.js` - Logical operators
-- `40_String_con_op.js` - String concatenation
-- `41_Ternary_op.js` - Ternary operator
-- `42_Type_op.js` - Type operators
-- `43_Incre_Decre_op.js` - Increment/decrement
-- `44_Null_op.js` - Null and comparison behavior
+| Chapter / Folder | Focus |
+| --- | --- |
+| `Chapter_01_Basics` | Introduction, setup, and JS basics |
+| `Chapter_02_Javascript_concepts` | Core JavaScript concepts |
+| `Chapter_03_Identifier_Literals` | Identifiers and literal values |
+| `Chapter_04_Javascript_Concepts.js` | var/let/const, functions, hoisting, scope |
+| `Chapter_05_Literal` | Literal types and values |
+| `Chapter_06_Operators` | Arithmetic, comparison, logical, and ternary operators |
+| `Chapter_07_if_else` | Conditional statements and decision logic |
+| `Chapter_09_UserInput` | Input handling with Node.js |
+| `Chapter_10_Loops` | For, while, and do-while loops |
+| `Chapter_11_Arrays.js` | Array creation, transformations, and searching |
+| `Chapter_12_Functions` | Function declarations and expressions |
+| `Chapter_14_Objects` | Objects and object methods |
+| `Chapter_15_2DArray` | Two-dimensional arrays |
+| `Chapter_18_Async_Await` | Promise and async programming |
+| `Practice_Questions.js` | Coding exercises and practice assignments |
 
-### Chapters 07 and 09
+## Suggested learning path
 
-- `Chapter_07_if_else` - Conditional statements, nested conditions, and API status checks
-- `Chapter_09_UserInput` - User input with Node.js `readline` and `prompt-sync`
-- `Practice_Questions.js` - Small exercises covering conditionals and ternary operators
+1. Start from the basics chapter and work in order.
+2. Re-run the examples after modifying them to experiment with outputs.
+3. Move into loops, arrays, and functions once the fundamentals are comfortable.
+4. Practice async programming before moving into Playwright automation.
+5. Use the practice files to reinforce concepts with small exercises.
 
-## How to Use
+## Notes
 
-- Study the numbered files in order for a gradual learning path.
-- Each file is self-contained - edit the `console.log` examples and re-run with Node.
-- New exercises are added continuously as learning progresses.
+- Each file is intentionally small and focused on one concept.
+- This repository is primarily for learning and experimentation.
+- New examples and assignments are added as the learning continues.
 
 ## License
 
-This project is for learning purposes only.
+This project is for educational and learning purposes only.
